@@ -21,7 +21,7 @@
 /*! @{ */
 
 #define TB_SOLVER_THRESHOLD ((tbScalar)0.000001)	/*!< The threshold under which contacts are considered as non-colliding */
-#define TB_SOLVER_ITERATIONS 4						/*!< The maximum solver iteration count */
+#define TB_SOLVER_ITERATIONS 20						/*!< The maximum solver iteration count */
 
 /*! Collision contact structure */
 typedef struct tbContact_s
